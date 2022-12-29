@@ -32,6 +32,10 @@ const templates: Template[] = [
     name: 'simple-demo',
     description: 'simplep web template',
   },
+  {
+    name: 'react-template',
+    description: 'react template',
+  },
 ];
 
 export default templates;

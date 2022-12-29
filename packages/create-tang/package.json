@@ -1,8 +1,8 @@
 {
-  "name": "@tangjs/create-tang",
-  "version": "1.0.1",
+  "name": "create-tang",
+  "version": "1.0.3",
   "description": "",
-  "main": "index.js",
+  "main": "bin/index.js",
   "scripts": {
     "build": "rm -rf lib && tsc --build ./tsconfig.json",
     "watch": "tsc --build ./tsconfig.json --watch"
