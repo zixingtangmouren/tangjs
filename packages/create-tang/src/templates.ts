@@ -36,6 +36,10 @@ const templates: Template[] = [
     name: 'react-template',
     description: 'react template',
   },
+  {
+    name: 'vue-template',
+    description: 'vue template',
+  },
 ];
 
 export default templates;
