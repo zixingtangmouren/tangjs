@@ -7,6 +7,12 @@ config.resolve.extensions.add('.ts').add('.tsx').add('.js').add('.json');
 
 config.context(path.resolve(process.cwd()));
 
+// 解决 babel-loader 找不到情况
+config.resolveLoader.modules
+  .add(path.resolve(__dirname, '../../node_modules'))
+  .add(path.resolve(process.cwd(), 'src'))
+  .add(path.resolve(process.cwd(), 'node_modules'));
+
 /**
  * 配置 js | ts 的相关解析
  */
@@ -22,7 +28,7 @@ config.module
         '@babel/preset-env',
         {
           useBuiltIns: 'usage',
-          corejs: '3.26',
+          corejs: '3.27',
         },
       ],
       '@babel/preset-typescript',
