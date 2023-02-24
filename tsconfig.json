@@ -2,7 +2,8 @@
   "references": [
     { "path": "packages/tang-cli" },
     { "path": "packages/create-tang" },
-    { "path": "packages/build-config" }
-    // { "path": "packages/plugin-react-base" }
+    { "path": "packages/build-config" },
+    { "path": "packages/plugin-react-base" },
+    { "path": "packages/plugin-web" }
   ]
 }

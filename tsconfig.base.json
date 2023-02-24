@@ -3,7 +3,6 @@
     "target": "ES2016",
     "module": "commonjs",
     "jsx": "react",
-    "jsxFactory": "React.createElement",
     "experimentalDecorators": true,
     "strictNullChecks": true,
     "declaration": true,

@@ -3,9 +3,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "rootDir": "src",
-    "outDir": "lib",
-    "composite": true
+    "outDir": "lib"
   },
-  "include": ["src"],
-  "exclude": ["bin", "templates"]
+  "include": ["src"]
 }

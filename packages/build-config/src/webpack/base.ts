@@ -18,8 +18,7 @@ config.resolveLoader.modules
  */
 config.module
   .rule('babel')
-  // TODO: 不安装 preset-react 是否可以解析 jsx | tsx
-  .test(/\.(js|jsx|ts|tsx)$/)
+  .test(/\.(js|ts)$/)
   .use('babel')
   .loader('babel-loader')
   .options({
@@ -34,5 +33,13 @@ config.module
       '@babel/preset-typescript',
     ],
   });
+
+/**
+ * 配置 css 处理
+ */
+
+/**
+ * 配置静态资源
+ */
 
 export default config;
